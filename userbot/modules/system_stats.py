@@ -1,10 +1,5 @@
-# Copyright (C) 2019 The Raphielscape Company LLC.
-#
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
-# you may not use this file except in compliance with the License.
-#
-""" Userbot module for getting information about the server. """
-
+import platform
+import sys
 from asyncio import create_subprocess_exec as asyncrunapp
 from asyncio.subprocess import PIPE as asyncPIPE
 from platform import python_version, uname
@@ -13,6 +8,10 @@ from os import remove
 from telethon import version
 from userbot import bot, CMD_HELP, ALIVE_NAME, UPSTREAM_REPO_BRANCH, ALIVE_LOGO, USERBOT_VERSION
 from userbot.events import register
+
+import psutil
+from telethon import __version__, version
+from git import Repo
 
 # ============== CONSTANT ==============
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
