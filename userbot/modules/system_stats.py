@@ -158,15 +158,17 @@ async def pipcheck(pip):
 @register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-     logo = ALIVE_LOGO
-    output = (f"`XBOT` is running on `{UPSTREAM_REPO_BRANCH}`\n"
+     uptime = await get_readable_time((time.time() - StartTime))
+    img = IMG
+    caption = (
+             f"`XBOT` is running on `{UPSTREAM_REPO_BRANCH}`\n"
              f"•°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°•\n"
              f"👤 `User       :` {DEFAULTUSER}\n"
              f"🐍 `Python     :` V{python_version()}\n"
              f"⚙️ `Telethon   :` V{version.__version__}\n"
              f"🕒 `Bot Uptime :` {uptime}\n"
              f"•°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°•\n")
-    await bot.send_file(alive.chat_id, logo, caption=output)
+    await bot.send_file(alive.chat_id, img ,logo, caption=output)
     await alive.delete()
 
 @register(outgoing=True, pattern="^\.aliveu")
