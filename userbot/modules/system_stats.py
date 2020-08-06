@@ -140,7 +140,7 @@ async def amireallyalive(alive):
              "`-----------------------------------`\n"
              f"•💻 `Running on     : {repo.active_branch.name} `\n"
              f"•🗃 `Loaded modules : {len(modules)} `\n"
-             f"•🧸 `XBOT Version       : v{USERBOT_VERSION} `\n"
+             f"•🛠 `XBOT Version       : v{USERBOT_VERSION} `\n"
              f"`⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊶⊷⊶⊶⊶⊶`")
     await bot.send_file(alive.chat_id, logo, caption=output)
     await alive.delete()
