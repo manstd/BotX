@@ -20,6 +20,7 @@ from telethon import __version__, version
 
 # ============== CONSTANT ==============
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
+modules = CMD_HELP
 # =======================================
 
 async def get_readable_time(seconds: int) -> str:
@@ -160,7 +161,6 @@ async def pipcheck(pip):
 @register(outgoing=True, pattern=r"^\.(?:alive|on)\s?(.)?")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-     uptime = await get_readable_time((time.time() - StartTime))
     img = IMG
     caption = (
              f"`XBOT` is running on `{UPSTREAM_REPO_BRANCH}`\n"
@@ -168,7 +168,7 @@ async def amireallyalive(alive):
              f"👤 `User       :` {DEFAULTUSER}\n"
              f"🐍 `Python     :` V{python_version()}\n"
              f"⚙️ `Telethon   :` V{version.__version__}\n"
-             f"🕒 `Bot Uptime :` {uptime}\n"
+             f"🕒 `Modules    : {len(modules)}\n"
              f"•°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°°•\n")
     await bot.send_file(alive.chat_id, img ,logo, caption=output)
     await alive.delete()
