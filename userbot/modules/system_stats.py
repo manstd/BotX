@@ -14,7 +14,9 @@ from os import remove
 from telethon import version
 from userbot import bot, CMD_HELP, ALIVE_NAME, UPSTREAM_REPO_BRANCH, ALIVE_LOGO, IMG, StartTime, bot
 from userbot.events import register
+
 import psutil
+from telethon import __version__, version
 
 # ============== CONSTANT ==============
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
