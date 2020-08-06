@@ -16,7 +16,7 @@ from userbot.modules.admin import get_user_from_event
 @register(outgoing=True, pattern=r"^\.alok$")
 async def repo_is_here(wannasee):
     """ For .alok command, just returns the xnxx """
-    await wannasee.edit("GiVv AL0K B4n& [iD kU](https://xnxx.com)")
+    await wannasee.edit("GiVe AL0K B4ng& [iD kU](https://xnxx.com)")
 
 @register(outgoing=True, pattern=r"^\.ibb$")
 async def lol(e):
@@ -40,7 +40,7 @@ async def lol(e):
         )
 CMD_HELP.update(
     {
-        "memes": ">`.cowsay`\
+        "alok": ">`.alok`\
 \nUsage: cow which says things.\
 \n\n>`.alok`\
 \nUsage: Copypasta the famous meme\
