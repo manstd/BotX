@@ -71,6 +71,11 @@ IMG_LIMIT = os.environ.get("IMG_LIMIT", None)
 # Default .alive name
 ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
 
+# Image for alive
+IMG = os.environ.get(
+    "IMG",
+    "https://telegra.ph/file/a092a1a7d4be7787b5a6d.jpg")
+
 # Default .alive logo
 ALIVE_LOGO = os.environ.get(
     "ALIVE_LOGO",
