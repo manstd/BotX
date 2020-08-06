@@ -106,5 +106,6 @@ def get_size(bytes, suffix="B"):
 
 
 
-CMD_HELP.update({">`.spc`"
-                 "\nUsage: Show system specification."})
+CMD_HELP.update({"spc": ">`.spc`"
+                 "\nUsage: Show system specification.",
+                 })
