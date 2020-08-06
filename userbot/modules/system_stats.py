@@ -1,4 +1,268 @@
-#Encript Marshal By XVenom
-#https://github.com/xvenom15
-import marshal
-exec(marshal.loads(b'\xe3\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00@\x00\x00\x00s\x1c\x01\x00\x00d\x00Z\x00d\x01d\x02l\x01m\x02Z\x03\x01\x00d\x01d\x03l\x04m\x05Z\x06\x01\x00d\x01d\x04l\x07m\x08Z\x08m\tZ\t\x01\x00d\x01d\x05l\nm\x0bZ\x0b\x01\x00d\x01d\x06l\x0cm\rZ\r\x01\x00d\x01d\x07l\x0em\x0fZ\x0f\x01\x00d\x01d\x08l\x10m\x11Z\x11m\x12Z\x12m\x13Z\x13m\x14Z\x14m\x15Z\x15\x01\x00d\x01d\tl\x16m\x17Z\x17\x01\x00e\x13r\x84e\x18e\x13\x83\x01n\x06e\t\x83\x00j\x19a\x1ae\x17d\nd\x0bd\x0c\x8d\x02d\rd\x0e\x84\x00\x83\x01Z\x1be\x17d\nd\x0fd\x0c\x8d\x02d\x10d\x11\x84\x00\x83\x01Z\x1ce\x17d\nd\x12d\x0c\x8d\x02d\x13d\x14\x84\x00\x83\x01Z\x1de\x17d\nd\x15d\x0c\x8d\x02d\x16d\x17\x84\x00\x83\x01Z\x1ee\x17d\nd\x18d\x0c\x8d\x02d\x19d\x1a\x84\x00\x83\x01Z\x1fe\x17d\nd\x1bd\x0c\x8d\x02d\x1cd\x1d\x84\x00\x83\x01Z e\x12\xa0!d\x1ed\x1fd d!d"\x9c\x04\xa1\x01\x01\x00d#S\x00)$z: Userbot module for getting information about the server. \xe9\x00\x00\x00\x00)\x01\xda\x16create_subprocess_exec)\x01\xda\x04PIPE)\x02\xda\x0epython_version\xda\x05uname)\x01\xda\x05which)\x01\xda\x06remove)\x01\xda\x07version)\x05\xda\x03bot\xda\x08CMD_HELP\xda\nALIVE_NAME\xda\x14UPSTREAM_REPO_BRANCH\xda\nALIVE_LOGO)\x01\xda\x08registerTz\x08^\\.sysd$)\x02Z\x08outgoingZ\x07patternc\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x05\x00\x00\x00\x08\x00\x00\x00\xc3\x00\x00\x00s\xaa\x00\x00\x00|\x00j\x00d\x01\x19\x00\xa0\x01\xa1\x00s\xa6|\x00j\x00d\x01\x19\x00d\x02k\x07r\xa6zdt\x02d\x03d\x04t\x03t\x03d\x05\x8d\x04I\x00d\x06H\x00}\x01|\x01\xa0\x04\xa1\x00I\x00d\x06H\x00\\\x02}\x02}\x03t\x05|\x02\xa0\x06\xa1\x00\xa0\x07\xa1\x00\x83\x01t\x05|\x03\xa0\x06\xa1\x00\xa0\x07\xa1\x00\x83\x01\x17\x00}\x04|\x00\xa0\x08d\x07|\x04\x17\x00d\x07\x17\x00\xa1\x01I\x00d\x06H\x00\x01\x00W\x00n$\x04\x00t\tk\nr\xa4\x01\x00\x01\x00\x01\x00|\x00\xa0\x08d\x08\xa1\x01I\x00d\x06H\x00\x01\x00Y\x00n\x02X\x00d\x06S\x00)\tz4 For .sysd command, get system info using neofetch. r\x01\x00\x00\x00\xa9\x04\xfa\x01/\xfa\x01#\xfa\x01@\xfa\x01!Z\x08neofetchz\x08--stdout\xa9\x02\xda\x06stdout\xda\x06stderrN\xfa\x01`z\x1b`Install neofetch first !!`)\n\xda\x04text\xda\x07isalpha\xda\x0basyncrunapp\xda\tasyncPIPE\xda\x0bcommunicate\xda\x03str\xda\x06decode\xda\x05strip\xda\x04edit\xda\x11FileNotFoundError)\x05\xda\x04sysdZ\x05fetchr\x15\x00\x00\x00r\x16\x00\x00\x00\xda\x06result\xa9\x00r$\x00\x00\x00\xda\x00\xda\nsysdetails\x16\x00\x00\x00s\x1e\x00\x00\x00\x00\x03\x1c\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\xfc\x0c\x07\x12\x01\x0e\x01\x0e\xff\x04\x03\x1c\x01\x0e\x01r&\x00\x00\x00z\n^\\.botver$c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x08\x00\x00\x00\xc3\x00\x00\x00s\xf4\x00\x00\x00|\x00j\x00d\x01\x19\x00\xa0\x01\xa1\x00s\xf0|\x00j\x00d\x01\x19\x00d\x02k\x07r\xf0t\x02d\x03\x83\x01d\x04k\tr\xe0t\x03d\x03d\x05d\x06d\x07t\x04t\x04d\x08\x8d\x06I\x00d\x04H\x00}\x01|\x01\xa0\x05\xa1\x00I\x00d\x04H\x00\\\x02}\x02}\x03t\x06|\x02\xa0\x07\xa1\x00\xa0\x08\xa1\x00\x83\x01t\x06|\x03\xa0\x07\xa1\x00\xa0\x08\xa1\x00\x83\x01\x17\x00}\x04t\x03d\x03d\td\x06d\nt\x04t\x04d\x08\x8d\x06I\x00d\x04H\x00}\x05|\x05\xa0\x05\xa1\x00I\x00d\x04H\x00\\\x02}\x02}\x03t\x06|\x02\xa0\x07\xa1\x00\xa0\x08\xa1\x00\x83\x01t\x06|\x03\xa0\x07\xa1\x00\xa0\x08\xa1\x00\x83\x01\x17\x00}\x06|\x00\xa0\td\x0b|\x04\x9b\x00d\x0c|\x06\x9b\x00d\r\x9d\x05\xa1\x01I\x00d\x04H\x00\x01\x00n\x10|\x00\xa0\td\x0e\xa1\x01I\x00d\x04H\x00\x01\x00d\x04S\x00)\x0fz+ For .botver command, get the bot version. r\x01\x00\x00\x00r\x0f\x00\x00\x00Z\x03gitNZ\x08describez\x05--allz\x06--longr\x14\x00\x00\x00z\x08rev-listz\x07--countz\x12`Userbot Version: z\x0e` \n`Revision: r\x17\x00\x00\x00zCShame that you don\'t have git, you\'re running - \'v1.beta.4\' anyway!)\nr\x18\x00\x00\x00r\x19\x00\x00\x00r\x06\x00\x00\x00r\x1a\x00\x00\x00r\x1b\x00\x00\x00r\x1c\x00\x00\x00r\x1d\x00\x00\x00r\x1e\x00\x00\x00r\x1f\x00\x00\x00r \x00\x00\x00)\x07Z\x05eventZ\x03verr\x15\x00\x00\x00r\x16\x00\x00\x00Z\x06veroutZ\x03revZ\x06revoutr$\x00\x00\x00r$\x00\x00\x00r%\x00\x00\x00\xda\x07bot_ver+\x00\x00\x00s<\x00\x00\x00\x00\x03\x1c\x02\x0c\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\xfa\x0c\x08\x12\x01\x0e\x01\x0e\xff\x04\x03\x02\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\xfa\x0c\x08\x12\x01\x0e\x01\x0e\xff\x04\x03 \x07\x04\x01\x02\xffr\'\x00\x00\x00z\x11^\\.pip(?: |$)(.*)c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x07\x00\x00\x00\x07\x00\x00\x00\xc3\x00\x00\x00s@\x01\x00\x00|\x00j\x00d\x01\x19\x00\xa0\x01\xa1\x00\x90\x01s<|\x00j\x00d\x01\x19\x00d\x02k\x07\x90\x01r<|\x00j\x02\xa0\x03d\x03\xa1\x01}\x01|\x01\x90\x01r,|\x00\xa0\x04d\x04\xa1\x01I\x00d\x05H\x00\x01\x00t\x05d\x06d\x07|\x01t\x06t\x06d\x08\x8d\x05I\x00d\x05H\x00}\x02|\x02\xa0\x07\xa1\x00I\x00d\x05H\x00\\\x02}\x03}\x04t\x08|\x03\xa0\t\xa1\x00\xa0\n\xa1\x00\x83\x01t\x08|\x04\xa0\t\xa1\x00\xa0\n\xa1\x00\x83\x01\x17\x00}\x05|\x05\x90\x01r\x12t\x0b|\x05\x83\x01d\tk\x04r\xf2|\x00\xa0\x04d\n\xa1\x01I\x00d\x05H\x00\x01\x00t\x0cd\x0bd\x0c\x83\x02}\x06|\x06\xa0\r|\x05\xa1\x01\x01\x00|\x06\xa0\x0e\xa1\x00\x01\x00|\x00j\x0fj\x10|\x00j\x11d\x0b|\x00j\x12d\r\x8d\x03I\x00d\x05H\x00\x01\x00t\x13d\x0b\x83\x01\x01\x00d\x05S\x00|\x00\xa0\x04d\x0e|\x01\x9b\x00d\x0f|\x05\x9b\x00d\x10\x9d\x05\xa1\x01I\x00d\x05H\x00\x01\x00n\x18|\x00\xa0\x04d\x0e|\x01\x9b\x00d\x11\x9d\x03\xa1\x01I\x00d\x05H\x00\x01\x00n\x10|\x00\xa0\x04d\x12\xa1\x01I\x00d\x05H\x00\x01\x00d\x05S\x00)\x13z$ For .pip command, do a pip search. r\x01\x00\x00\x00r\x0f\x00\x00\x00\xe9\x01\x00\x00\x00z\x11`Searching . . .`NZ\x04pip3\xda\x06searchr\x14\x00\x00\x00i\x00\x10\x00\x00z#`Output too large, sending as file`z\noutput.txtz\x02w+)\x01Z\x08reply_toz\x19**Query: **\n`pip3 search z\x10`\n**Result: **\n`r\x17\x00\x00\x00z)`\n**Result: **\n`No Result Returned/False`z!`Use .help pip to see an example`)\x14r\x18\x00\x00\x00r\x19\x00\x00\x00Z\rpattern_match\xda\x05groupr \x00\x00\x00r\x1a\x00\x00\x00r\x1b\x00\x00\x00r\x1c\x00\x00\x00r\x1d\x00\x00\x00r\x1e\x00\x00\x00r\x1f\x00\x00\x00\xda\x03len\xda\x04open\xda\x05write\xda\x05closeZ\x06client\xda\tsend_file\xda\x07chat_id\xda\x02idr\x07\x00\x00\x00)\x07\xda\x03pipZ\tpipmoduleZ\x04pipcr\x15\x00\x00\x00r\x16\x00\x00\x00Z\x06pipout\xda\x04filer$\x00\x00\x00r$\x00\x00\x00r%\x00\x00\x00\xda\x08pipcheckU\x00\x00\x00s>\x00\x00\x00\x00\x03 \x01\x0c\x01\x06\x01\x10\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\x01\x02\xfb\x0c\x08\x12\x01\x0e\x01\x0e\xff\x04\x03\x06\x01\x0c\x01\x10\x01\n\x01\n\x01\x08\x01\x06\x01\x04\x01\x02\x01\x04\xfd\x0c\x05\x08\x01\x04\x01 \x06\x1a\x04r4\x00\x00\x00z\x16^\\.(?:alive|on)\\s?(.)?c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x03\x00\x00\x00\t\x00\x00\x00\xc3\x00\x00\x00sP\x00\x00\x00t\x00}\x01d\x01t\x01\x9b\x00d\x02t\x02\x83\x00\x9b\x00d\x03t\x03j\x04\x9b\x00d\x04t\x05\x9b\x00d\x05\x9d\t}\x02t\x06j\x07|\x00j\x08|\x01|\x02d\x06\x8d\x03I\x00d\x07H\x00\x01\x00|\x00\xa0\t\xa1\x00I\x00d\x07H\x00\x01\x00d\x07S\x00)\x08z3 For .alive command, check if the bot is running.  z\x16`XBOT` is running on `u5\x00\x00\x00`\n\xc3\x97==========================\xc3\x97\n\xf0\x9f\x90\x8d `Python    :` vu\x17\x00\x00\x00\n\xe2\x9a\x99\xef\xb8\x8f `Telethon  :` vu\x14\x00\x00\x00\n\xf0\x9f\x91\xa4 `User      :` u \x00\x00\x00\n\xc3\x97==========================\xc3\x97\n)\x01Z\x07captionN)\nr\r\x00\x00\x00r\x0c\x00\x00\x00r\x04\x00\x00\x00r\x08\x00\x00\x00Z\x0b__version__\xda\x0bDEFAULTUSERr\t\x00\x00\x00r/\x00\x00\x00r0\x00\x00\x00\xda\x06delete)\x03\xda\x05aliveZ\x04logo\xda\x06outputr$\x00\x00\x00r$\x00\x00\x00r%\x00\x00\x00\xda\x0eamireallyalive\x82\x00\x00\x00s\x08\x00\x00\x00\x00\x03\x04\x01"\x06\x18\x01r9\x00\x00\x00z\t^\\.aliveuc\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x04\x00\x00\x00\x05\x00\x00\x00\xc3\x00\x00\x00sZ\x00\x00\x00|\x00j\x00}\x01d\x01}\x02|\x01d\x02k\x02s>|\x01d\x03d\x04\x85\x02\x19\x00d\x05k\x03s>|\x01d\x04d\x06\x85\x02\x19\x00}\x03|\x03a\x01d\x07|\x03\x17\x00d\x08\x17\x00}\x02|\x00\xa0\x02d\t|\x02\x9b\x00d\t\x9d\x03\xa1\x01I\x00d\x06H\x00\x01\x00d\x06S\x00)\nzA For .aliveu command, change the username in the .alive command. z7.aliveu [new user without brackets] nor can it be emptyz\x07.aliveu\xe9\x07\x00\x00\x00\xe9\x08\x00\x00\x00\xfa\x01 Nz\x1dSuccessfully changed user to r\x13\x00\x00\x00r\x17\x00\x00\x00)\x03r\x18\x00\x00\x00r5\x00\x00\x00r \x00\x00\x00)\x04Z\x08username\xda\x07messager8\x00\x00\x00Z\x07newuserr$\x00\x00\x00r$\x00\x00\x00r%\x00\x00\x00\xda\x12amireallyaliveuser\x8f\x00\x00\x00s\x0e\x00\x00\x00\x00\x03\x06\x01\x04\x01\x18\x01\x0c\x02\x04\x01\x0c\x01r>\x00\x00\x00z\x0e^\\.resetalive$c\x01\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x00\x01\x00\x00\x00\x03\x00\x00\x00\xc3\x00\x00\x00s(\x00\x00\x00t\x00r\x0ct\x01t\x00\x83\x01n\x06t\x02\x83\x00j\x03a\x04|\x00\xa0\x05d\x01\xa1\x01I\x00d\x02H\x00\x01\x00d\x02S\x00)\x03zD For .resetalive command, reset the username in the .alive command. z$`Successfully reset user for alive!`N)\x06r\x0b\x00\x00\x00r\x1d\x00\x00\x00r\x05\x00\x00\x00\xda\x04noder5\x00\x00\x00r \x00\x00\x00)\x01Z\x06uresetr$\x00\x00\x00r$\x00\x00\x00r%\x00\x00\x00\xda\x13amireallyalivereset\x9c\x00\x00\x00s\x04\x00\x00\x00\x00\x04\x14\x01r@\x00\x00\x00z8>`.sysd`\nUsage: Shows system information using neofetch.z,>`.botver`\nUsage: Shows the userbot version.z;>`.pip <module(s)>`\nUsage: Does a search of pip modules(s).z\xc5>`.alive`\nUsage: Type .alive to see wether your bot is working or not.\n\n>`.aliveu <text>`\nUsage: Changes the \'user\' in alive to the text you want.\n\n>`.resetalive`\nUsage: Resets the user to default.)\x04r"\x00\x00\x00Z\x06botverr2\x00\x00\x00r7\x00\x00\x00N)"\xda\x07__doc__Z\x07asyncior\x02\x00\x00\x00r\x1a\x00\x00\x00Z\x12asyncio.subprocessr\x03\x00\x00\x00r\x1b\x00\x00\x00\xda\x08platformr\x04\x00\x00\x00r\x05\x00\x00\x00Z\x06shutilr\x06\x00\x00\x00\xda\x02osr\x07\x00\x00\x00Z\x08telethonr\x08\x00\x00\x00Z\x07userbotr\t\x00\x00\x00r\n\x00\x00\x00r\x0b\x00\x00\x00r\x0c\x00\x00\x00r\r\x00\x00\x00Z\x0euserbot.eventsr\x0e\x00\x00\x00r\x1d\x00\x00\x00r?\x00\x00\x00r5\x00\x00\x00r&\x00\x00\x00r\'\x00\x00\x00r4\x00\x00\x00r9\x00\x00\x00r>\x00\x00\x00r@\x00\x00\x00\xda\x06updater$\x00\x00\x00r$\x00\x00\x00r$\x00\x00\x00r%\x00\x00\x00\xda\x08<module>\x06\x00\x00\x00s6\x00\x00\x00\x04\x02\x0c\x01\x0c\x01\x10\x01\x0c\x01\x0c\x01\x0c\x01\x1c\x01\x0c\x03\x14\x04\n\x01\n\x14\n\x01\n)\n\x01\n,\n\x01\n\x0c\n\x01\n\x0c\n\x01\n\x07\x04\x02\x02\x03\x02\x03\x02\x03\x02\xf5'))
+import re
+import time
+import os
+from sys import version_info
+from logging import basicConfig, getLogger, INFO, DEBUG
+from distutils.util import strtobool as sb
+
+from pylast import LastFMNetwork, md5
+from pySmartDL import SmartDL
+from dotenv import load_dotenv
+from requests import get
+from telethon import TelegramClient
+from telethon.sessions import StringSession
+
+load_dotenv("config.env")
+
+StartTime = time.time()
+
+# Bot Logs setup:
+CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
+
+if CONSOLE_LOGGER_VERBOSE:
+    basicConfig(
+        format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+        level=DEBUG,
+    )
+else:
+    basicConfig(format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+                level=INFO)
+LOGS = getLogger(__name__)
+
+if version_info[0] < 3 or version_info[1] < 8:
+    LOGS.info("You MUST have a python version of at least 3.8."
+              "Multiple features depend on this. Bot quitting.")
+    quit(1)
+
+# Check if the config was edited by using the already used variable.
+# Basically, its the 'virginity check' for the config file ;)
+CONFIG_CHECK = os.environ.get(
+    "___________PLOX_______REMOVE_____THIS_____LINE__________", None)
+
+if CONFIG_CHECK:
+    LOGS.info(
+        "Please remove the line mentioned in the first hashtag from the config.env file"
+    )
+    quit(1)
+
+# Telegram App KEY and HASH
+API_KEY = os.environ.get("API_KEY", None)
+API_HASH = os.environ.get("API_HASH", None)
+
+
+# Send .chatid in any group with all your administration bots (added)
+G_BAN_LOGGER_GROUP = os.environ.get("G_BAN_LOGGER_GROUP", None)
+if G_BAN_LOGGER_GROUP:
+        G_BAN_LOGGER_GROUP = int(G_BAN_LOGGER_GROUP)
+
+# Userbot Session String
+STRING_SESSION = os.environ.get("STRING_SESSION", None)
+
+# Logging channel/group ID configuration.
+BOTLOG_CHATID = int(os.environ.get("BOTLOG_CHATID", None))
+
+# Userbot logging feature switch.
+BOTLOG = sb(os.environ.get("BOTLOG", "True"))
+LOGSPAMMER = sb(os.environ.get("LOGSPAMMER", "False"))
+
+# IMG Stuff
+IMG_LIMIT = os.environ.get("IMG_LIMIT", None)
+
+# Default .alive name
+ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+
+# Image for alive
+IMG = os.environ.get(
+    "IMG",
+    "https://telegra.ph/file/a092a1a7d4be7787b5a6d.jpg")
+
+# Default .alive logo
+ALIVE_LOGO = os.environ.get(
+    "ALIVE_LOGO",
+    "https://telegra.ph/file/a092a1a7d4be7787b5a6d.jpg")
+
+# Bleep Blop, this is a bot ;)
+PM_AUTO_BAN = sb(os.environ.get("PM_AUTO_BAN", "False"))
+
+# Heroku Credentials for updater.
+HEROKU_APP_NAME = os.environ.get("HEROKU_APP_NAME", None)
+HEROKU_API_KEY = os.environ.get("HEROKU_API_KEY", None)
+
+# Github Credentials for updater and Gitupload.
+GIT_REPO_NAME = os.environ.get("GIT_REPO_NAME", None)
+GITHUB_ACCESS_TOKEN = os.environ.get("GITHUB_ACCESS_TOKEN", None)
+
+# Custom (forked) repo URL for updater.
+UPSTREAM_REPO_URL = os.environ.get(
+    "UPSTREAM_REPO_URL",
+    "https://github.com/X-Newbie/BotX.git")
+# UPSTREAM_REPO_URL branch, the default is master
+UPSTREAM_REPO_BRANCH = os.environ.get(
+    "UPSTREAM_REPO_BRANCH", "master")
+
+# Console verbose logging
+CONSOLE_LOGGER_VERBOSE = sb(os.environ.get("CONSOLE_LOGGER_VERBOSE", "False"))
+
+# SQL Database URI
+DB_URI = os.environ.get("DATABASE_URL", None)
+
+# OCR API key
+OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
+
+# Telegraph
+TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", None)
+
+# remove.bg API key
+REM_BG_API_KEY = os.environ.get("REM_BG_API_KEY", None)
+
+# Chrome Driver and Headless Google Chrome Binaries
+CHROME_DRIVER = os.environ.get("CHROME_DRIVER", None)
+GOOGLE_CHROME_BIN = os.environ.get("GOOGLE_CHROME_BIN", None)
+
+# OpenWeatherMap API Key
+OPEN_WEATHER_MAP_APPID = os.environ.get("OPEN_WEATHER_MAP_APPID", None)
+WEATHER_DEFCITY = os.environ.get("WEATHER_DEFCITY", None)
+
+# Anti Spambot Config
+ANTI_SPAMBOT = sb(os.environ.get("ANTI_SPAMBOT", "False"))
+ANTI_SPAMBOT_SHOUT = sb(os.environ.get("ANTI_SPAMBOT_SHOUT", "False"))
+
+# Youtube API key
+YOUTUBE_API_KEY = os.environ.get("YOUTUBE_API_KEY", None)
+
+# Default .alive name
+ALIVE_NAME = os.environ.get("ALIVE_NAME", None)
+
+# Time & Date - Country and Time Zone
+COUNTRY = str(os.environ.get("COUNTRY", ""))
+TZ_NUMBER = int(os.environ.get("TZ_NUMBER", 1))
+
+# Clean Welcome
+CLEAN_WELCOME = sb(os.environ.get("CLEAN_WELCOME", "True"))
+
+# Last.fm Module
+BIO_PREFIX = os.environ.get("BIO_PREFIX", None)
+DEFAULT_BIO = os.environ.get("DEFAULT_BIO", None)
+
+LASTFM_API = os.environ.get("LASTFM_API", None)
+LASTFM_SECRET = os.environ.get("LASTFM_SECRET", None)
+LASTFM_USERNAME = os.environ.get("LASTFM_USERNAME", None)
+LASTFM_PASSWORD_PLAIN = os.environ.get("LASTFM_PASSWORD", None)
+LASTFM_PASS = md5(LASTFM_PASSWORD_PLAIN)
+if LASTFM_API and LASTFM_SECRET and LASTFM_USERNAME and LASTFM_PASS:
+    lastfm = LastFMNetwork(api_key=LASTFM_API,
+                           api_secret=LASTFM_SECRET,
+                           username=LASTFM_USERNAME,
+                           password_hash=LASTFM_PASS)
+else:
+    lastfm = None
+
+# Google Drive Module
+G_DRIVE_DATA = os.environ.get("G_DRIVE_DATA", None)
+G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
+G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", None)
+G_DRIVE_AUTH_TOKEN_DATA = os.environ.get("G_DRIVE_AUTH_TOKEN_DATA", None)
+G_DRIVE_FOLDER_ID = os.environ.get("G_DRIVE_FOLDER_ID", None)
+TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY",
+                                         "./downloads")
+                                         
+# Zipfile module
+ZIP_DOWNLOAD_DIRECTORY = os.environ.get("ZIP_DOWNLOAD_DIRECTORY",
+                                         "./zips")                                         
+# Version of XBOT
+USERBOT_VERSION = os.environ.get("USERBOT_VERSION") or "1.9"
+
+# Terminal Alias
+TERM_ALIAS = os.environ.get("TERM_ALIAS", None)
+
+# Genius Lyrics API
+GENIUS = os.environ.get("GENIUS_ACCESS_TOKEN", None)
+
+# Quote
+QUOTES_API_TOKEN = os.environ.get("QUOTES_API_TOKEN", None)
+
+# Deezloader
+DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
+
+# Setting Up CloudMail.ru and MEGA.nz extractor binaries,
+# and giving them correct perms to work properly.
+if not os.path.exists('bin'):
+    os.mkdir('bin')
+
+binaries = {
+    "https://raw.githubusercontent.com/adekmaulana/megadown/master/megadown":
+    "bin/megadown",
+    "https://raw.githubusercontent.com/yshalsager/cmrudl.py/master/cmrudl.py":
+    "bin/cmrudl"
+}
+
+for binary, path in binaries.items():
+    downloader = SmartDL(binary, path, progress_bar=False)
+    downloader.start()
+    os.chmod(path, 0o755)
+
+# 'bot' variable
+if STRING_SESSION:
+    # pylint: disable=invalid-name
+    bot = TelegramClient(StringSession(STRING_SESSION), API_KEY, API_HASH)
+else:
+    # pylint: disable=invalid-name
+    bot = TelegramClient("userbot", API_KEY, API_HASH)
+
+
+async def check_botlog_chatid():
+    if not BOTLOG_CHATID and LOGSPAMMER:
+        LOGS.info(
+            "You must set up the BOTLOG_CHATID variable in the config.env or environment variables, for the private error log storage to work."
+        )
+        quit(1)
+
+    elif not BOTLOG_CHATID and BOTLOG:
+        LOGS.info(
+            "You must set up the BOTLOG_CHATID variable in the config.env or environment variables, for the userbot logging feature to work."
+        )
+        quit(1)
+
+    elif not BOTLOG or not LOGSPAMMER:
+        return
+
+    entity = await bot.get_entity(BOTLOG_CHATID)
+    if entity.default_banned_rights.send_messages:
+        LOGS.info(
+            "Your account doesn't have rights to send messages to BOTLOG_CHATID "
+            "group. Check if you typed the Chat ID correctly.")
+        quit(1)
+
+
+with bot:
+    try:
+        bot.loop.run_until_complete(check_botlog_chatid())
+    except:
+        LOGS.info(
+            "BOTLOG_CHATID environment variable isn't a "
+            "valid entity. Check your environment variables/config.env file.")
+        quit(1)
+
+async def check_alive():
+    await bot.send_message(BOTLOG_CHATID, f"`OK, XBOT BERHASIL DIAKTIFKAN...`")
+    return
+
+with bot:
+    try:
+        bot.loop.run_until_complete(check_alive())
+    except:
+        LOGS.info(
+            "BOTLOG_CHATID environment variable isn't a "
+            "valid entity. Check your environment variables/config.env file.")
+        quit(1)
+
+
+# Global Variables
+COUNT_MSG = 0
+USERS = {}
+COUNT_PM = {}
+LASTMSG = {}
+CMD_HELP = {}
+ISAFK = False
+AFKREASON = None
+ZALG_LIST = {}
