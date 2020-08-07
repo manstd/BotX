@@ -71,13 +71,13 @@ async def bot_ver(event):
             revout = str(stdout.decode().strip()) \
                 + str(stderr.decode().strip())
 
-            await event.edit("`┏━━━━━━━━━━━━━━━━━━━━━\n"
+            await event.edit("┏━━━━━━━━━━━━━━━━━━━━━\n"
                              "`Userbot Version: "
                              f"{verout}"
                              "` \n"
                              "`Revision: "
-                             f"{revout}"
-                             "`┗━━━━━━━━━━━━━━━━━━━━━")
+                             f"{revout}\n"
+                             "┗━━━━━━━━━━━━━━━━━━━━━")
         else:
             await event.edit(
                 "Shame that you don't have git, you're running - 'v1.beta.4' anyway!"
