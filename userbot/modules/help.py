@@ -25,7 +25,7 @@ async def help(event):
         head4 = "Daftar Command Module Yang Aktif: "
         string = ""
         sep1 = "╚══════❖क⊹⊱✫⊰⊹क❖══════╝"
-        sep2 = "क════════क⊹⊱✫⊰⊹क═══════क"
+        sep2 = "क═══════क⊹⊱✫⊰⊹क═══════क"
         for i in CMD_HELP:
             string += "`" + str(i)
             string += "`  •  "
