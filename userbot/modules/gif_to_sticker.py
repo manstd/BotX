@@ -94,5 +94,4 @@ async def on_gif(event):
 CMD_HELP.update({
     "GTS":
     "`.gts`\
-\nUsage: Reply .gts to a sticker or an image to kang it to your userbot pack.\
-})
+\nUsage: Reply .gts to a sticker or an image to kang it to your userbot pack.})
