@@ -133,15 +133,15 @@ async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     logo = ALIVE_LOGO
     output = (f"`XBOT` is running on `{UPSTREAM_REPO_BRANCH}`\n"
-             f"×===========================×\n"
-             f"•👤 `User      :` {DEFAULTUSER}\n"
-             f"•🐍 `Python    :` v{python_version()}\n"
-             f"•⚙️ `Telethon  :` v{version.__version__}\n"
-             "`----------------------------`\n"
-             f"•💻 `Running on     : {repo.active_branch.name} `\n"
-             f"•🗃 `Loaded modules : {len(modules)} `\n"
-             f"•🛠 `XBOT Version   : v{USERBOT_VERSION} `\n"
-             f"`⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊶⊷⊶⊶⊶⊶`")
+             f"┏━━━━━━━━━━━━━━━━━━━━━━\n"
+             f"┣[•👤 `User      :` {DEFAULTUSER}\n"
+             f"┣[•🐍 `Python    :` v{python_version()}\n"
+             f"┣[•⚙️ `Telethon  :` v{version.__version__}\n"
+             "`⊷⊷⊷⊷⊷⊷⊷⊷`\n"
+             f"┣[•💻 `Running on     : {repo.active_branch.name} `\n"
+             f"┣[•🗃 `Loaded modules : {len(modules)} `\n"
+             f"┣[•🛠 `XBOT Version   : v{USERBOT_VERSION} `\n"
+             f"┗━━━━━━━━━━━━━━━━━━━━━━")
     await bot.send_file(alive.chat_id, logo, caption=output)
     await alive.delete()
 
