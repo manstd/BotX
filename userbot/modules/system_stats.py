@@ -71,12 +71,13 @@ async def bot_ver(event):
             revout = str(stdout.decode().strip()) \
                 + str(stderr.decode().strip())
 
-            await event.edit("`Userbot Version: "
+            await event.edit("`┏━━━━━━━━━━━━━━━━━━━━━\n"
+                             "`Userbot Version: "
                              f"{verout}"
                              "` \n"
                              "`Revision: "
                              f"{revout}"
-                             "`")
+                             "`┗━━━━━━━━━━━━━━━━━━━━━")
         else:
             await event.edit(
                 "Shame that you don't have git, you're running - 'v1.beta.4' anyway!"
@@ -132,15 +133,15 @@ async def pipcheck(pip):
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
     logo = ALIVE_LOGO
-    output = (f"🛠🔥`XBOT` is running on `**{UPSTREAM_REPO_BRANCH}**`🔥🛠\n"
+    output = (f"🛠🔥`XBOT` is running on `{UPSTREAM_REPO_BRANCH}`🔥🛠\n"
              f"┏━━━━━━━━━━━━━━━━━━━━━>\n"
              f"┣[•👤 `User     :` {DEFAULTUSER}\n"
              f"┣[•🐍 `Python   :` v{python_version()}\n"
              f"┣[•⚙️ `Telethon :` v{version.__version__}\n"
                  "`⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷⊷`\n"
-             f"┣[•💻 `Base On      : {repo.active_branch.name} `\n"
-             f"┣[•🗃 `L Modules    : {len(modules)} `\n"
-             f"┣[•🛠 `XBOT Version : v{USERBOT_VERSION} `\n"
+             f"┣[•💻 `Base on      : {repo.active_branch.name} `\n"
+             f"┣[•🗃 `LModules     : {len(modules)} `\n"
+             f"┣[•🛠 `XBOT version : v{USERBOT_VERSION} `\n"
              f"┗━━━━━━━━━━━━━━━━━━━━━>")
     await bot.send_file(alive.chat_id, logo, caption=output)
     await alive.delete()
