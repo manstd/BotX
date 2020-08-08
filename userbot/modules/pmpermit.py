@@ -18,12 +18,12 @@ from userbot.events import register
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
 
 UNAPPROVED_MSG = (
-    "`Hallo {name0}\n`"
+    "`Hallo (f"[{name0}](tg://user?id={uid})\n`"
     "`Mohon maaf, Saya Sedang Offline.\n`"
     "`Silahkan menunggu sampai saya menerima chat anda.\n`"
     "`Sementara itu, jangan spam chat.. jika spam, anda akan di blokir otomatis oleh xbot.\n`"
     "`Mengerti?\n\n`"
-    "`庐 Assisten {DEFAULTUSER}`")
+    "`庐 Assisten") ("{DEFAULTUSER}")
 # =================================================================
 
 
