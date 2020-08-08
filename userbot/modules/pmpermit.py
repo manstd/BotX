@@ -14,7 +14,15 @@ from userbot import (COUNT_PM, bot, LOGS, CMD_HELP, BOTLOG, BOTLOG_CHATID, PM_AU
 from userbot.events import register
 from telethon.events import ChatAction
 
-
+# ================= CONSTANT =================
+UNAPPROVED_MSG = (
+    "`Hallo {fullname}\n`"
+    "`Mohon maaf, Saya Sedang Offline.\n`"
+    "`Silahkan menunggu sampai saya menerima chat anda.\n`"
+    "`Sementara itu, jangan spam chat.. jika spam, anda akan di blokir otomatis oleh xbot.\n`"
+    "`Mengerti?\n\n`"
+    "`庐 Assisten {my_fullname}")
+# =================================================================
 @bot.on(ChatAction)
 async def welcome_to_chat(event):
     try:
@@ -87,19 +95,6 @@ async def welcome_to_chat(event):
                 file=file_media)
             update_previous_welcome(event.chat_id, current_message.id)
 
-
-# ================= CONSTANT =================
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
-# =======================================================
-
-UNAPPROVED_MSG = (
-    "`Hallo {mention}\n`"
-    "`Mohon maaf, Saya Sedang Offline.\n`"
-    "`Silahkan menunggu sampai saya menerima chat anda.\n`"
-    "`Sementara itu, jangan spam chat.. jika spam, anda akan di blokir otomatis oleh xbot.\n`"
-    "`Mengerti?\n\n`"
-    "`庐 Assisten{my_fullname}")
-# =================================================================
 
 @register(incoming=True, disable_edited=True, disable_errors=True)
 async def permitpm(event):
