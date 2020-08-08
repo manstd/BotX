@@ -10,22 +10,22 @@ from telethon.tl.functions.messages import ReportSpamRequest
 from telethon.tl.types import User
 from sqlalchemy.exc import IntegrityError
 
-from userbot import (COUNT_PM, CMD_HELP, BOTLOG, BOTLOG_CHATID, PM_AUTO_BAN, ALIVE_NAME, LASTMSG, LOGS)
+from userbot import (COUNT_PM, bot, CMD_HELP, BOTLOG, BOTLOG_CHATID, PM_AUTO_BAN, ALIVE_NAME, LASTMSG, LOGS)
 
 from userbot.events import register
 
 # ================= CONSTANT =================
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
+# =======================================================
 
 UNAPPROVED_MSG = (
-    "`Hallo [{name0}]tg://user?id={uid}\n`"
+    "`Hallo User\n`"
     "`Mohon maaf, Saya Sedang Offline.\n`"
     "`Silahkan menunggu sampai saya menerima chat anda.\n`"
     "`Sementara itu, jangan spam chat.. jika spam, anda akan di blokir otomatis oleh xbot.\n`"
     "`Mengerti?\n\n`"
-    "`庐 Assisten""{DEFAULTUSER}")
+    "`庐 Assisten{user.last_name}")
 # =================================================================
-
 
 @register(incoming=True, disable_edited=True, disable_errors=True)
 async def permitpm(event):
