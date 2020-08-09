@@ -40,13 +40,13 @@ async def sleepybot(time):
             f"You put the bot to sleep for {str_counter}.",
         )
     sleep(counter)
-    await time.edit("`OK, I'm awake now.`")
+    await time.edit("`OK, XBOT Kembali...`")
 
 
 @register(outgoing=True, pattern="^\.shutdown$")
 async def killthebot(event):
     """ For .shutdown command, shut the bot down."""
-    await event.edit("`Goodbye...`")
+    await event.edit("`XBOT Telah Dimatikan....`")
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#SHUTDOWN \n"
                                         "Bot shut down")
@@ -55,7 +55,7 @@ async def killthebot(event):
 
 @register(outgoing=True, pattern="^\.restart$")
 async def killdabot(event):
-    await event.edit("`*i would be back in a moment*`")
+    await event.edit("`*Proses Restart XBOT....*`")
     if BOTLOG:
         await event.client.send_message(BOTLOG_CHATID, "#RESTART \n"
                                         "Bot Restarted")
@@ -98,7 +98,7 @@ async def repeat(rep):
 async def repo_is_here(wannasee):
     """ For .repo command, just returns the repo URL. """
     await wannasee.edit(
-        "GET [XBOT](https://pornhub.com) `BY ➳͜͡❂ᏚᏆ N͜͡ᎬᎳᏴᏆᎬ༈`\n===========================\n  \n"
+        "┍━━━━━━━━━━♔━━━━━━━━━┑\nGET [XBOT](https://github.com/X-Newbie/BotX) `BY ➳͜͡❂ᏚᏆ N͜͡ᎬᎳᏴᏆᎬ༈`\n┕━━━━━━━━━━♔━━━━━━━━━┙\n  \n"
     )
 
 
