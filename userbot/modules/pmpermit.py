@@ -16,7 +16,7 @@ from userbot import (COUNT_PM, CMD_HELP, BOTLOG, BOTLOG_CHATID, PM_AUTO_BAN,
 from userbot.events import register
 
 # ========================= CONSTANTS ============================
-UNAPPROVED_MSG ="`HALO`{chat.first_name}\n" 
+UNAPPROVED_MSG =("`HALO`{chat.first_name}.\n"
     "`Mohon maaf, Saya Sedang Offline.\n`"
     "`Silahkan menunggu sampai saya menerima chat anda.\n`"
     "`Sementara itu, jangan spam chat.. jika spam, anda akan di blokir otomatis oleh xbot.\n`"
