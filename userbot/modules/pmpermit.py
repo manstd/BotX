@@ -16,9 +16,8 @@ from userbot import (COUNT_PM, CMD_HELP, BOTLOG, BOTLOG_CHATID, PM_AUTO_BAN,
 from userbot.events import register
 
 # ========================= CONSTANTS ============================
-UNAPPROVED_MSG = (await event.client.send_message(
-                        "#HALOO\n" + "User: " +
-                        f"[{chat.first_name}](tg://user?id={chat.id})",
+UNAPPROVED_MSG ="#HALOO\n" + "User: " +
+                        f"[{chat.first_name}](tg://user?id={chat.id})\n"
     "`Mohon maaf, Saya Sedang Offline.\n`"
     "`Silahkan menunggu sampai saya menerima chat anda.\n`"
     "`Sementara itu, jangan spam chat.. jika spam, anda akan di blokir otomatis oleh xbot.\n`"
