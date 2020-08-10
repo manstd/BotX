@@ -40,7 +40,7 @@ jotquote
 lxml
 oauth2client
 pendulum
-Pillow>=7.1.0
+Pillow>=6.0.0
 pip>=19.2.3
 psutil
 psycopg2
@@ -69,7 +69,7 @@ sqlalchemy
 selenium
 # SpeechRecognition>=3.4.6
 # wheel>=0.30.0a0
-telethon==1.15.0
+telethon==1.16.0
 telethon-session-sqlalchemy
 twitter_scraper
 TgCrypto>=1.2.0
