@@ -11,7 +11,7 @@ bwb
 cowpy
 cfscrape
 cryptg
-cffi
+cffi>=1.0.0
 coffeehouse
 csvfaker
 deezloader
@@ -61,19 +61,19 @@ patool
 pytz
 psutil
 qrcode
-requests
+requests>=2.18.4
 regex
-search-engine-parser
-speedtest-cli
-sqlalchemy
+search-engine-parser>=0.6.1
+speedtest-cli>=2.0.2
+sqlalchemy>=1.2
 selenium
 # SpeechRecognition>=3.4.6
 # wheel>=0.30.0a0
 telethon==1.15.0
-telethon-session-sqlalchemy
+telethon-session-sqlalchemy>=0.2.6
 twitter_scraper
 TgCrypto>=1.2.0
-urbandict
+urbandict>=0.5
 validators
 wikipedia
 wget
