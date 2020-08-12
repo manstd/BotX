@@ -147,7 +147,7 @@ def register(**args):
                                                  "error.log",
                                                  caption=text)
                     remove("error.log")
-                    await event.delete()
+                    await check.delete()
 
             else:
                 pass
