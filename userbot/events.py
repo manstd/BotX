@@ -97,7 +97,6 @@ def register(**args):
                     date = strftime("%Y-%m-%d %H:%M:%S", gmtime())
 
                     text = "**USERBOT ERROR REPORT**\n"
-                    link = "Support chat PM: @adekmaulana"
                     text += "If you want to, you can report it"
                     text += f"- just forward this message to {link}.\n"
                     text += "Nothing is logged except the fact of error and date\n"
@@ -147,7 +146,7 @@ def register(**args):
                                                  "error.log",
                                                  caption=text)
                     remove("error.log")
-                    await check.delete()
+                    await func.delete()
 
             else:
                 pass
