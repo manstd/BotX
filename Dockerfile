@@ -65,7 +65,7 @@ RUN python3 -m ensurepip \
 #
 # Clone repo and prepare working directory
 #
-RUN git clone -b master https://github.com/X-Newbie/BotX /home/BotX/
+RUN git clone -b x-alpha https://github.com/X-Newbie/BotX /home/BotX/
 RUN mkdir /home/BotX/bin/
 WORKDIR /home/BotX/
 
