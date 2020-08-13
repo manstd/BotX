@@ -76,12 +76,7 @@ def register(**args):
                 return
 
             try:
-                await func(check)
-
-            # Thanks to @kandnub for this HACK.
-            # Raise StopPropagation to Raise StopPropagation
-            # This needed for AFK to working properly
-
+                
             except events.StopPropagation:
                 raise events.StopPropagation
             # This is a gay exception and must be passed out. So that it doesnt spam chats
@@ -98,7 +93,7 @@ def register(**args):
 
                     text = "**USERBOT ERROR REPORT**\n"
                     text += "If you want to, you can report it"
-                    text += f"- just forward this message to {link}.\n"
+                    text += f"- just forward this message to link.\n"
                     text += "Nothing is logged except the fact of error and date\n"
 
                     ftext = "========== DISCLAIMER =========="
