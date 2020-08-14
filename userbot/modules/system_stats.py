@@ -224,22 +224,6 @@ async def amireallyalivereset(ureset):
     await ureset.edit("`" "Successfully reset user for alive!" "`")
 
 
-@register(outgoing=True, pattern="^\.db$")
-async def amireallydbs(dbs):
-    if not is_mongo_alive() and not is_redis_alive():
-        db = "Both Mongo and Redis Database seems to be failing!"
-    elif not is_mongo_alive():
-        db = "Mongo DB seems to be failing!"
-    elif not is_redis_alive():
-        db = "Redis Cache seems to be failing!"
-    else:
-        db = "Databases functioning normally!"
-    await dbs.edit(""
-                     f"`User:` {DEFAULTUSER} \n"
-                     f"`Database status: {db}\n`"
-                     f"`XBOT: {BOT_VER}`"
-                     "")
-
 CMD_HELP.update({
     "sysd":
     ">`.sysd`"
@@ -260,6 +244,4 @@ CMD_HELP.update({
     "\nUsage: Changes the 'user' in alive to the text you want."
     "\n\n>`.resetalive`"
     "\nUsage: Resets the user to default."
-    "\n\n>`.db`"
-    "\nUsage: Shows database related info."
 })
