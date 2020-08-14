@@ -4,13 +4,16 @@ import os
 from sys import version_info
 from logging import basicConfig, getLogger, INFO, DEBUG
 from distutils.util import strtobool as sb
-
+from math import ceil
+from pymongo import MongoClient
+from redis import StrictRedis
 from pylast import LastFMNetwork, md5
 from pySmartDL import SmartDL
 from dotenv import load_dotenv
 from requests import get
 from telethon import TelegramClient
 from telethon.sessions import StringSession
+
 
 load_dotenv("config.env")
 
@@ -188,6 +191,37 @@ DEEZER_ARL_TOKEN = os.environ.get("DEEZER_ARL_TOKEN", None)
 # and giving them correct perms to work properly.
 if not os.path.exists('bin'):
     os.mkdir('bin')
+    
+# Init Mongo
+MONGOCLIENT = MongoClient(MONGO_URI, 27017, serverSelectionTimeoutMS=1)
+MONGO = MONGOCLIENT.userbot
+
+
+def is_mongo_alive():
+    try:
+        MONGOCLIENT.server_info()
+    except BaseException:
+        return False
+    return True
+
+
+# Init Redis
+# Redis will be hosted inside the docker container that hosts the bot
+# We need redis for just caching, so we just leave it to non-persistent
+REDIS = StrictRedis(host='localhost', port=6379, db=0)
+
+
+def is_redis_alive():
+    try:
+        REDIS.ping()
+        return True
+    except BaseException:
+        return False
+    
+
+
+
+
 
 binaries = {
     "https://raw.githubusercontent.com/adekmaulana/megadown/master/megadown":
