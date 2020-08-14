@@ -6,12 +6,13 @@ from platform import python_version, uname
 from shutil import which
 from os import remove
 from telethon import version
-from userbot import bot, CMD_HELP, ALIVE_NAME, UPSTREAM_REPO_BRANCH, ALIVE_LOGO, USERBOT_VERSION
+from userbot import bot, CMD_HELP, ALIVE_NAME, UPSTREAM_REPO_BRANCH, ALIVE_LOGO, USERBOT_VERSION, IMG, StartTime, 
 from userbot.events import register
 from datetime import datetime
 import psutil
 from git import Repo
-
+import time
+from telethon import __version__, version
 
 # ============== CONSTANT ==============
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else uname().node
