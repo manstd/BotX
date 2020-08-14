@@ -193,7 +193,6 @@ if not os.path.exists('bin'):
     os.mkdir('bin')
     
 # Init Mongo
-MONGOCLIENT = MongoClient(MONGO_URI, 27017, serverSelectionTimeoutMS=1)
 MONGO = MONGOCLIENT.userbot
 
 
