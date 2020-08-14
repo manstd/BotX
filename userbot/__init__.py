@@ -5,7 +5,6 @@ from sys import version_info
 from logging import basicConfig, getLogger, INFO, DEBUG
 from distutils.util import strtobool as sb
 from math import ceil
-from pymongo import MongoClient
 from redis import StrictRedis
 from pylast import LastFMNetwork, md5
 from pySmartDL import SmartDL
