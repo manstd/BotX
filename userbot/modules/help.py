@@ -29,8 +29,9 @@ async def help(event):
            \n╰━━━━━━━━━━━━━━━━━━━━━╯")
         string = ""
         for i in CMD_HELP:
+            string += "`[ "
             string += "`" + str(i)
-            string += "`\t🔯\t "
+            string += "`\t]\t "
         await event.reply(f"{string}"
                          "\n\n╰━┉┄═━┉┄═━┉✫┄═━═━┉┄═━╯\
                           \n**Mod By**'➳͜͡❂ঔৣ⃕͜x͠N͜͡ᎬᎳᏴᏆᎬ࿐'")
