@@ -157,11 +157,11 @@ async def bot_ver(event):
                 + str(stderr.decode().strip())
 
             await event.edit("╭━━━━━━━━━━━━━━━━━━━━╮\n "
-                             "` Userbot Version: \n"
+                             "` Userbot Version: \n  "
                              f"{verout}"
                              "` \n"
-                             "`  Revision: "
-                             f"{revout}\n "
+                             "   Revision: "
+                             f"{revout}"
                              "╰━━━━━━━━━━━━━━━━━━━━╯ ")
         else:
             await event.edit(
