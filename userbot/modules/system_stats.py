@@ -225,9 +225,9 @@ async def amireallyalive(alive):
              "`┣▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱`\n"
              f"┣[•⚙️ `Telethon :v {version.__version__} `🔥\n"
              f"┣[•🐍 `Python   :v {python_version()} `🔥\n"
-             f"┣[•💻 `Base on  : {UPSTREAM_REPO_BRANCH} `🔥\n"
+             f"┣[•💻 `Base on  : {repo.active_branch.name} `🔥\n"
              f"┣[•🗃 `Modules  : {len(modules)} `🔥\n"
-             f"┣[•🛠 `XBOT Ver : Prem {BOT_VER} `🔥\n"
+             f"┣[•🛠 `XBOT Ver :v {USERBOT_VERSION} `🔥\n"
              f"┣[•🕒 `Uptime    : {uptime} `🔥\n"
              f"╰━━━━━━━━━━━━━━━━━━━━━╯\n"
              f"•Mod By: `{DEFAULTUSER}`")
