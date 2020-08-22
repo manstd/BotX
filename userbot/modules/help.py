@@ -35,4 +35,4 @@ async def help(event):
               \n{head3}\
               \n{head4}\
               \n{sep1}")
-       await event.reply("string")
+       await event.reply(string)
