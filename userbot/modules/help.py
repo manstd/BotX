@@ -1,6 +1,6 @@
 # Copyright (C) 2019 The Raphielscape Company LLC.
 #
-# Licensed under the Raphielscape Public License, Version 1.c (the "License");
+# Licensed under the Raphielscape Public License, Version 1.d (the "License");
 # you may not use this file except in compliance with the License.
 #
 """ Userbot help command """
@@ -8,8 +8,9 @@
 from userbot import CMD_HELP
 from userbot.events import register
 
+modules = CMD_HELP
 
-@register(outgoing=True, pattern="^\.help(?: |$)(.*)")
+@register(outgoing=True, pattern="^.help(?: |$)(.*)")
 async def help(event):
     """ For .help command,"""
     args = event.pattern_match.group(1).lower()
@@ -17,22 +18,20 @@ async def help(event):
         if args in CMD_HELP:
             await event.edit(str(CMD_HELP[args]))
         else:
-            await event.edit("`Modul Salah Goblokk wkwkkw`")
+            await event.edit("**Module Salah Goblokkkk!!**")
     else:
-        head = "**Help for** [🔥XBOT🔥]\nCommand"
-        head2 = "Sertakan Module untuk melihat lengkap Command"
-        head3 = "Contoh: .help <nama module>"
-        head4 = "Daftar Command Module Yang Aktif: "
+        await event.edit(f"**╭━━━━━━━━━━━━━━━━━━━━━╮**\
+            \n│   Help for [🔥XBOT-ALPHA🔥]\
+            \n│   ╾────────────────╼ \
+            \n│   Untuk melihat lengkap Command\
+            \n│   Contoh: .help <nama module>\
+            \n│   Modules Aktif: {len(modules)}\
+           \n╰━━━━━━━━━━━━━━━━━━━━━╯")
         string = ""
-        sep1 = "╚══════❖क⊹⊱✫⊰⊹क❖══════╝"
-        sep2 = "क═══════क⊹⊱✫⊰⊹क═══════क"
         for i in CMD_HELP:
             string += "`" + str(i)
-            string += "`  •  "
-        await event.edit(f"{head}\
-              \n{sep2}\
-              \n{head2}\
-              \n{head3}\
-              \n{head4}\
-              \n{sep1}")
-       await event.reply({string})
+            string += "`\t🔯\t "
+        await event.reply(f"{string}"
+                         "\n\n╰━┉┄═━┉┄═━┉✫┄═━═━┉┄═━╯\
+                          \n**Mod By**'➳͜͡❂ঔৣ⃕͜x͠N͜͡ᎬᎳᏴᏆᎬ࿐'")
+
