@@ -29,6 +29,6 @@ async def help(event):
            \n╰━━━━━━━━━━━━━━━━━━━━━╯")
         string = ""
         for i in CMD_HELP:
-            string += "`" + str(i)
+            string += "`" + str(i) + "`"
             string += "`\t•\t "
-        await event.reply (str)
+        await event.reply(string)
